@@ -17,10 +17,10 @@ function removeOpacity(event) {
      //remove appropriate CSS class
 
     let element = document.getElementById('color-price');
-        element.textContent = '';
+        element.textContent = 'color-price';
         
     let color = document.getElementById('color-name');
-        color.textContent = ''; 
+        color.textContent = 'color-name'; 
 
     event.preventDefault();    
 }
